@@ -1,0 +1,22 @@
+Enter the number of items : 5
+Enter the truck capacity : 10
+Enter the weight and utility of each item:
+Item 1 - Weight: 2
+Item 1 - Utility: 10
+Item 2 - Weight: 3
+Item 2 - Utility: 20
+Item 1 - Utility: 10
+Item 1 - Utility: 10
+Item 2 - Weight: 3
+Item 2 - Utility: 20
+Item 3 - Weight: 4
+Item 3 - Utility: 30
+Item 4 - Weight: 5
+Item 4 - Utility: 40
+Item 5 - Weight: 1
+Item 5 - Utility: 15
+Maximum utility that can be carried: 85
+Items chosen :
+Item 5 - Weight: 1 Utility: 15
+Item 4 - Weight: 5 Utility: 40
+Item 3 - Weight: 4 Utility: 30

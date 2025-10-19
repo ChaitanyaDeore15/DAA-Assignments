@@ -1,0 +1,16 @@
+Enter sorting parameter (1=IMDB Rating, 2=Release Year, 3=Popularity): 
+1
+Sorting movies, please wait...
+Sorting completed in 0.8590 seconds.
+
+Top 10 movies (sorted):
+Movie_45512 | Rating: 9.9900 | Year: 1986 | Popularity: 21700.0000
+Movie_10089 | Rating: 9.9900 | Year: 1993 | Popularity: 11256.0000
+Movie_55245 | Rating: 9.9900 | Year: 2013 | Popularity: 26862.0000
+Movie_36290 | Rating: 9.9900 | Year: 1988 | Popularity: 19626.0000
+Movie_3000 | Rating: 9.9900 | Year: 1995 | Popularity: 28165.0000
+Movie_62116 | Rating: 9.9900 | Year: 1990 | Popularity: 13103.0000
+Movie_19772 | Rating: 9.9900 | Year: 1998 | Popularity: 24039.0000
+Movie_44072 | Rating: 9.9900 | Year: 1983 | Popularity: 12525.0000
+Movie_18660 | Rating: 9.9900 | Year: 2022 | Popularity: 28465.0000
+Movie_95180 | Rating: 9.9900 | Year: 2010 | Popularity: 29875.0000

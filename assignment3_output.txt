@@ -1,0 +1,25 @@
+Enter number of relief items: 4
+Enter boat weight capacity (kg): 50
+Enter item details (Name Weight Utility Divisible[0/1]):
+Water 
+10
+60
+1
+Food 
+20
+100
+1
+Medicine
+30
+120
+0
+Blanket
+25
+90
+1
+
+Maximum utility value that can be transported: 232.00
+Items taken:
+Water - Weight taken: 10.00 kg
+Food - Weight taken: 20.00 kg
+Blanket - Weight taken: 20.00 kg

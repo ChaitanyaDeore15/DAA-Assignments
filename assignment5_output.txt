@@ -1,0 +1,20 @@
+Enter number of stages: 3
+Enter number of nodes in stage 1: 2
+Enter number of outgoing edges from node 0 in stage 1: 2
+  Edge to node in next stage (0-based index) and cost: 0
+3
+  Edge to node in next stage (0-based index) and cost: 1
+2
+Enter number of outgoing edges from node 1 in stage 1: 1
+  Edge to node in next stage (0-based index) and cost: 0
+3
+Enter number of nodes in stage 2: 2
+Enter number of outgoing edges from node 0 in stage 2: 1
+  Edge to node in next stage (0-based index) and cost: 0
+2
+Enter number of outgoing edges from node 1 in stage 2: 1
+  Edge to node in next stage (0-based index) and cost: 1
+1
+Enter number of nodes in stage 3: 2
+
+Optimal path through stages (0-based node indices): 0 1 1

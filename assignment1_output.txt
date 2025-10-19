@@ -1,0 +1,25 @@
+Orders before sorting:
+Order 1 | Timestamp: 848 | Value: 99.34
+Order 2 | Timestamp: 24082 | Value: 99.08
+Order 3 | Timestamp: 18040 | Value: 274.86
+Order 4 | Timestamp: 23689 | Value: 256.27
+Order 5 | Timestamp: 3098 | Value: 102.84
+Order 6 | Timestamp: 26429 | Value: 168.67
+Order 7 | Timestamp: 13661 | Value: 122.47
+Order 8 | Timestamp: 25637 | Value: 134.9
+Order 9 | Timestamp: 12443 | Value: 46.99
+Order 10 | Timestamp: 21017 | Value: 295.85
+
+Orders after sorting by timestamp:
+Order 14 | Timestamp: 186 | Value: 179.26
+Order 1 | Timestamp: 848 | Value: 99.34
+Order 19 | Timestamp: 863 | Value: 277.77
+Order 5 | Timestamp: 3098 | Value: 102.84
+Order 12 | Timestamp: 4757 | Value: 109.11
+Order 9 | Timestamp: 12443 | Value: 46.99
+Order 20 | Timestamp: 13206 | Value: 188.33
+Order 7 | Timestamp: 13661 | Value: 122.47
+Order 18 | Timestamp: 14756 | Value: 261.62
+Order 17 | Timestamp: 15801 | Value: 205.46
+
+[Done] exited with code=0 in 5.23 seconds
