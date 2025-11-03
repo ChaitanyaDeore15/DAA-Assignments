@@ -1,0 +1,27 @@
+Enter number of cities: 4
+Enter distance matrix (0 for same city):
+0
+10
+15
+20
+10
+0
+35
+25
+15
+35
+0
+30
+20
+25
+30
+0
+Enter fuel multiplier for each city (e.g., 1.0, 1.2, etc.):
+1.0
+1.1
+1.2
+0.9
+
+Optimal Delivery Route:
+City 1 -> City 3 -> City 4 -> City 2 -> City 1
+Minimum Delivery Cost: 11
