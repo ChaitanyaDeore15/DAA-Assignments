@@ -1,14 +1,15 @@
+//Name - Chaitanya Deore
+// PRN - 123B1F020
+
 #include <bits/stdc++.h>
 using namespace std;
 
-// Structure for Customer Orders
 struct Order {
     int order_id;
     long long timestamp;
     double value;
 };
 
-// Merge function
 void merge(vector<Order>& arr, int left, int mid, int right) {
     int n1 = mid - left + 1;
     int n2 = right - mid;
@@ -35,7 +36,6 @@ void merge(vector<Order>& arr, int left, int mid, int right) {
         arr[k++] = R[j++];
 }
 
-// Recursive Merge Sort
 void mergeSort(vector<Order>& arr, int left, int right) {
     if (left >= right) return;
     int mid = left + (right - left) / 2;
@@ -43,8 +43,6 @@ void mergeSort(vector<Order>& arr, int left, int right) {
     mergeSort(arr, mid + 1, right);
     merge(arr, left, mid, right);
 }
-
-// Helper: Generate random orders
 vector<Order> generateOrders(int n) {
     vector<Order> orders(n);
     srand(time(0));
@@ -55,8 +53,6 @@ vector<Order> generateOrders(int n) {
     }
     return orders;
 }
-
-// Print orders (for small examples)
 void printOrders(const vector<Order>& orders, int limit = 10) {
     for (int i = 0; i < min(limit, (int)orders.size()); i++) {
         cout << "Order " << orders[i].order_id 
@@ -66,7 +62,7 @@ void printOrders(const vector<Order>& orders, int limit = 10) {
 }
 
 int main() {
-    int n = 20; // number of orders (can increase up to 1 million)
+    int n = 20; 
     vector<Order> orders = generateOrders(n);
 
     cout << "Orders before sorting:\n";
@@ -79,3 +75,4 @@ int main() {
 
     return 0;
 }
+
